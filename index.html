@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Information Technology Department</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <!---header-->
+ <section class="header">
+    ,<nav>
+        <a href="index.html"><img src="https://storage.googleapis.com/ezap-prod/colleges/2672/lbs-institute-of-technology-for-women-poojappura-thiruvananthapuram-logo.jfif"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+           <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="placements.html">PLACEMENTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+           </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Information Technology,LBSITW</h1>
+    <p>
+       Department of Information Technology was established in the year 2001 and ,
+       <br>in the same year itself the department has started offering B.tech program with an intake of 60 per Branch.
+       <br>State-of-the-art facilities are available in all the labs to train the students capable of meeting the requirements of present and future.
+    </p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+
+ </section>
+
+ 
+<!---footer--->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Email ID : gopikag@gmail.com</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made By Gopika G</p>
+</section>
+ <!---Javascript for toggle Menu-->
+ <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+ </script> 
+</body>
+</html>
